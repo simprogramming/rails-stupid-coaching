@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   end
 
   def answer
-    if params[:question] == nil || ""
+    if params[:question] == nil
       @question = 'Nothing...'
       @answer = 'Nothing...'
     else

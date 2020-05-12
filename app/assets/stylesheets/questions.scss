@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container {
+  width: 400px;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 64px;
+}
+.question {
+  border-left: 4px solid grey;
+  padding: 8px 0 8px 16px;
+  margin-bottom: 16px;
+  background-color: rgb(245, 240, 240);
+}
+.answer {
+  border-left: 4px solid grey;
+  padding: 8px 0 8px 16px;
+  margin-bottom: 32px;
+  background-color: #fffee1;
+}
+a {
+  text-decoration: none;
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+.input-field {
+  margin: 64px;
+}
+.ask-form {
+  text-align: center;
+  margin-top: 64px;
+}
